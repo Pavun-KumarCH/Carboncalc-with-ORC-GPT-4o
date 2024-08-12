@@ -43,7 +43,7 @@ def analyze_image(image_data: str) -> str:
                             """
     
     client = OpenAI()
-    MODEL = "gpt-4o"
+    MODEL = "gpt-4o-mini"
 
     response = client.chat.completions.create(
         model = MODEL,
